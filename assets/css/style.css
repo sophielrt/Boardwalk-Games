@@ -41,6 +41,32 @@ h2 {
     margin-bottom: 2rem;
 }
 
+/* Buttons */
+
+.custom-button-filled {
+    border: 2px solid var(--hightlight-color);
+    background-color: var(--hightlight-color);
+    color: white;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.custom-button-outlined {
+    border: 3px solid var(--hightlight-color);
+    padding: 7px 25px;
+    color: var(--hightlight-color);
+}
+
+.custom-button-outlined:hover {
+    border: 2px solid var(--hightlight-color);
+    background-color: var(--hightlight-color);
+    color: white;
+}
+
 /* Navbar */
 
 #navbar {

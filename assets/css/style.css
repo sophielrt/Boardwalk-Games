@@ -112,7 +112,7 @@ h2 {
     max-width: 300px;
     margin: auto;
     padding: 5px 10px;
-    font-size: 0.8 rem;
+    font-size: 0.8rem;
 }
 
 /* Game library cards */
@@ -147,6 +147,8 @@ h2 {
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -160,7 +162,7 @@ h2 {
 
 /* Media queries */
 
-/* Sa=mall screens and up (576px and up) */
+/* Samall screens and up (576px and up) */
 @media screen and (min-width:576px) {
     /* Increase font size in events table when screen size is large enough */
     #events .table {
